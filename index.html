@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fake Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Main Page</title>
+    <style>
+        #newContent { display: none; }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Totally Legit Website</h1>
-    <p>Click below to continue.</p>
-    <a href="prank.html"><button>Go Ahead</button></a>
+    <div id="originalContent">
+        <h1>Welcome to My Fake Website</h1>
+        <p>Click the button to continue.</p>
+        <button onclick="swapContent()">Go to Next Page</button>
+    </div>
+
+    <div id="newContent">
+        <h1>April Fools! 🎉</h1>
+        <p>You fell for it! 😆</p>
+        <button onclick="swapContent()">Go Back</button>
+    </div>
+
+    <script>
+        function swapContent() {
+            document.getElementById("originalContent").style.display = "none";
+            document.getElementById("newContent").style.display = "block";
+        }
+    </script>
 </body>
 </html>

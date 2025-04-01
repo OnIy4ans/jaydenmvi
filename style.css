@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
-button {
+.button {
     background-color: #00AFF0;
     border: none;
     color: white;

@@ -1,20 +1,15 @@
-<body>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-        button {
-            background-color: #00AFF0;
-            border: none;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-        }
-    </style>
-</body>
-
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.blue_button {
+    background-color: #00AFF0;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}

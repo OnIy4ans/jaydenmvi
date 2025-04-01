@@ -3,7 +3,13 @@ body {
     font-family: Arial, sans-serif;
 }
 button {
-    padding: 10px;
+    background-color: #00AFF0;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    cursor: pointer;
+    margin: 4px 2px;
 }

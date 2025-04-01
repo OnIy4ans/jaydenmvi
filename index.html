@@ -23,8 +23,17 @@
 
     <script>
         function swapContent() {
-            document.getElementById("originalContent").style.display = "none";
-            document.getElementById("newContent").style.display = "block";
+            let original = document.getElementById("originalContent");
+            let newPage = document.getElementById("newContent");
+
+            // Toggle visibility
+            if (original.style.display === "none") {
+                original.style.display = "block";
+                newPage.style.display = "none";
+            } else {
+                original.style.display = "none";
+                newPage.style.display = "block";
+            }
         }
     </script>
 </body>

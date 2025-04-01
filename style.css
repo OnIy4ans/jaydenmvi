@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .blue_button {
-    background-color: #00AFF0;
+    background-color: #00AFF0 !important;
     border: none;
     color: white;
     padding: 20px;
